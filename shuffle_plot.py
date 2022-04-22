@@ -9,11 +9,11 @@ filename = "blue.csv"
 nodeSize = (200, 64)
 lineColour = (249,143,33)
 finalLineColour =  (215,25,25)
-backgroundColour = (255, 255, 255)
+backgroundColour =  (205,214,220)
 textColour = (0, 0, 0)
 font = ImageFont.truetype("./CARDS.TTF", 48)
 cards = pandas.read_csv(filename)
-textFont = ImageFont.truetype("/usr/share/fonts/liberation-sans/LiberationSans-Bold.ttf", 32)
+textFont = ImageFont.truetype("/usr/share/fonts/truetype/noto/NotoMono-Regular.ttf", 28)
 
 #for col in cards:
 numCards = len(pandas.unique(cards['1']))
