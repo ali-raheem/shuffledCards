@@ -25,7 +25,7 @@ draw = ImageDraw.Draw(plot)
 nodes = []
 i = 0
 startingOrder = list(cards['1'])
-cardNames = "abcdefghijklmABCDEFGHIJKLMnopqrstuvwxyzNOPQRSTUVWXYZ" # Order this to suit the cardFont
+cardNames = "mlkjihgfedcbaZYXWVUTSRQPONzyxwvutsrqponMLKJIHGFEDCBA" # Order this to suit the cardFont
 for card in startingOrder:
     x = nodeSize[0]/2
     y = nodeSize[1]/2 + (i * nodeSize[1])
