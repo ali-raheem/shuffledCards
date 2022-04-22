@@ -15,7 +15,7 @@ cardFont = ImageFont.truetype("./CARDS.TTF", 48) # https://freefontsdownload.net
 cards = pandas.read_csv(filename)
 textFont = ImageFont.truetype("/usr/share/fonts/truetype/noto/NotoMono-Regular.ttf", 28) # Change this for a suitable system font
 
-#for col in cards:
+#for col in cards: # This should be equal for every row.
 numCards = len(pandas.unique(cards['1']))
 
 numShuffles = len(cards.columns)
