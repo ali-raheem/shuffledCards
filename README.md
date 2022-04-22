@@ -4,6 +4,8 @@ I shuffled a deck of cards 7 times, checking the position of each card between s
 
 ![Results of the shuffling](shuffles.png)
 
+![The deck](deck.jpg)
+
 Data is CC0 Licensed.
 
 Code to generate the image is MIT Licensed.
