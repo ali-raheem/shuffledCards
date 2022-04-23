@@ -2,6 +2,8 @@
 
 I shuffled a deck of cards 7 times, checking the position of each card between shuffles.
 
+[Here's](https://www.reddit.com/r/dataisbeautiful/comments/u9mjdd/oc_tracking_the_position_of_each_playing_card/) `/r/DataIsBeautiful` post about it.
+
 ![Results of the shuffling](shuffles.png)
 
 ![The deck](deck.jpg)
